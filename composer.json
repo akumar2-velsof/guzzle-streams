@@ -1,0 +1,26 @@
+{
+    "name": "knowband/guzzlehttp-streams",
+    "description": "Provides a simple abstraction over streams of data",
+    "keywords": ["stream", "guzzle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashish",
+            "email": "akumar2@velsof.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": { "GuzzleHttp1\\Stream\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    }
+}
